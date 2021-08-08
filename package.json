@@ -1,0 +1,17 @@
+{
+  "name": "indie_brew",
+  "version": "1.0.0",
+  "description": "Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects.",
+  "main": "postcss.config.js",
+  "scripts": {
+    "convert": "npx tailwindcss -i ./css/styles.css -o ./dist/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
