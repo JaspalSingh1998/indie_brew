@@ -19,10 +19,10 @@
     <link rel="stylesheet" href="/dist/tailwind.css" />
     <title>Indie Brew | Codewell Challenge</title>
   </head>
-  <body class="font-DM">
+  <body class="font-DM text-lg">
     <header class="bg-hero bg-cover bg-no-repeat">
       <div class="container py-10 mx-auto px-4">
-        <nav class="flex justify-between items-center">
+        <nav class="flex justify-between items-center mb-10 lg:mb-20">
           <img src="./Assets/Logo.svg" alt="IndieBrew Logo" />
 
           <div class="main-nav hidden md:block md:space-x-4 text-lg">
@@ -48,6 +48,52 @@
             class="cursor-pointer md:hidden"
           />
         </nav>
+        <!-- HERO Section -->
+        <section class="lg:flex lg:items-center">
+          <div class="mb-10 lg:mb-0 flex-1 order-2">
+            <img
+              src="./Assets/Feed Mockup.png"
+              alt="Tablet Illustration"
+              class="md:w-4/5 lg:w-full"
+            />
+          </div>
+          <div class="flex-1">
+            <h1 class="text-5xl font-bold leading-tight mb-4">
+              Your weekly <span class="lg:block">personal feed digest.</span>
+            </h1>
+            <p class="leading-7 text-gray-500 mb-4">
+              With IndieBrew, get personal feeds from resources all around the
+              web, including Reddit, HackerNews, IndieHackers, and much more.
+            </p>
+            <a
+              href="#"
+              class="
+                inline-block
+                bg-indigo-600
+                text-yellow-50
+                font-thin
+                py-5
+                px-6
+                rounded-md
+                mb-8
+              "
+              ><span class="text-white font-bold">Get Started </span>- It's
+              free</a
+            >
+            <div>
+              <img
+                src="./Assets/User Avatars.svg"
+                alt="User Images Who has provided feedbacks"
+                class="mb-3"
+              />
+              <p class="text-gray-500">
+                Join
+                <span class="text-indigo-600 font-bold">32,642</span>
+                IndieBrewers in curating their personal digest.
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
     </header>
     <script src="/app/script.js"></script>
