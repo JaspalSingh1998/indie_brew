@@ -7,8 +7,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        "hero" : "url('/Assets/Background.png')"
-      })
+        hero: "url('/Assets/Background.png')",
+        signup: "url('/Assets/signup-background.png')",
+      }),
     },
   },
   variants: {

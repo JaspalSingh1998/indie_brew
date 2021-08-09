@@ -17781,6 +17781,10 @@ video {
   background-image: url('/Assets/Background.png');
 }
 
+.bg-signup {
+  background-image: url('/Assets/signup-background.png');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -49356,6 +49360,10 @@ video {
     background-image: url('/Assets/Background.png');
   }
 
+  .sm\:bg-signup {
+    background-image: url('/Assets/signup-background.png');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -80577,6 +80585,10 @@ video {
 
   .md\:bg-hero {
     background-image: url('/Assets/Background.png');
+  }
+
+  .md\:bg-signup {
+    background-image: url('/Assets/signup-background.png');
   }
 
   .md\:from-transparent {
@@ -111802,6 +111814,10 @@ video {
     background-image: url('/Assets/Background.png');
   }
 
+  .lg\:bg-signup {
+    background-image: url('/Assets/signup-background.png');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -143025,6 +143041,10 @@ video {
     background-image: url('/Assets/Background.png');
   }
 
+  .xl\:bg-signup {
+    background-image: url('/Assets/signup-background.png');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -174246,6 +174266,10 @@ video {
 
   .\32xl\:bg-hero {
     background-image: url('/Assets/Background.png');
+  }
+
+  .\32xl\:bg-signup {
+    background-image: url('/Assets/signup-background.png');
   }
 
   .\32xl\:from-transparent {
