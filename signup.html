@@ -32,8 +32,10 @@
         items-center
       "
     >
-      <img src="/Assets/Logo.svg" alt="IndieBrew Logo" />
-      <a class="md:flex md:items-center cursor-pointer">
+      <a href="./index.html">
+        <img src="/Assets/Logo.svg" alt="IndieBrew Logo" />
+      </a>
+      <a class="md:flex md:items-center cursor-pointer" href="./index.html">
         <img
           src="/Assets/Back Arrow.svg"
           alt="Back Arrow"
@@ -42,10 +44,20 @@
         <p class="md:text-xl md:font-bold hidden md:block">Back To Homepage</p>
       </a>
     </header>
-    <main class="container mx-auto px-4">
-      <div class="mb-9 rounded-xl">
+    <main
+      class="
+        container
+        mx-auto
+        px-4
+        lg:flex
+        lg:justify-between
+        lg:items-center
+        lg:gap-32
+      "
+    >
+      <div class="mb-9 rounded-xl lg:flex-1">
         <h1 class="text-4xl font-bold leading-snug mb-6">
-          Create your personalized feed.
+          Create your personalized <span class="lg:block">feed.</span>
         </h1>
         <div class="flex gap-x-2">
           <p class="text-3xl">🎈</p>
@@ -70,7 +82,7 @@
           </p>
         </div>
       </div>
-      <div class="p-9 bg-white mb-8">
+      <div class="p-9 bg-white mb-8 lg:flex-1 lg:p-16 shadow-lg">
         <h2 class="text-2xl font-bold mb-5">Create your IndieBrew Account</h2>
         <form action="#">
           <div class="mb-8">
