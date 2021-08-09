@@ -19,9 +19,37 @@
     <link rel="stylesheet" href="/dist/tailwind.css" />
     <title>Indie Brew | Codewell Challenge</title>
   </head>
-  <body>
-    <h1 class="text-7xl text-indigo-700 font-DM">Hello World!</h1>
+  <body class="font-DM">
+    <header class="bg-hero bg-cover bg-no-repeat">
+      <div class="container py-10 mx-auto px-4">
+        <nav class="flex justify-between items-center">
+          <img src="./Assets/Logo.svg" alt="IndieBrew Logo" />
 
+          <div class="main-nav hidden md:block md:space-x-4 text-lg">
+            <a href="#">Pricing</a>
+            <a href="#">Support</a>
+            <a
+              href="#"
+              class="
+                bg-indigo-600
+                text-yellow-50
+                font-thin
+                py-5
+                px-6
+                rounded-md
+              "
+              ><span class="text-white font-bold">Get Started </span>- It's
+              free</a
+            >
+          </div>
+          <img
+            src="/Assets/Hamburger Menu.svg"
+            alt="Menu Toggle"
+            class="cursor-pointer md:hidden"
+          />
+        </nav>
+      </div>
+    </header>
     <script src="/app/script.js"></script>
   </body>
 </html>

@@ -5,7 +5,11 @@ module.exports = {
     fontFamily: {
       DM: ["DM Sans", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: (theme) => ({
+        "hero" : "url('/Assets/Background.png')"
+      })
+    },
   },
   variants: {
     extend: {},
