@@ -20,7 +20,7 @@
     <title>Indie Brew | Codewell Challenge</title>
   </head>
   <body class="font-DM text-lg">
-    <header class="bg-hero bg-cover bg-no-repeat mb-20">
+    <header class="bg-hero bg-cover bg-no-repeat mb-20 relative">
       <div class="container py-10 mx-auto px-4">
         <nav class="flex justify-between items-center mb-10 lg:mb-20">
           <img src="./Assets/Logo.svg" alt="IndieBrew Logo" />
@@ -46,6 +46,7 @@
             src="/Assets/Hamburger Menu.svg"
             alt="Menu Toggle"
             class="cursor-pointer md:hidden"
+            id="toggle"
           />
         </nav>
         <!-- HERO Section -->
@@ -94,6 +95,35 @@
             </div>
           </div>
         </section>
+      </div>
+
+      <div
+        id="mobile-menu"
+        class="
+          md:hidden
+          absolute
+          bg-gray-100
+          top-24
+          left-2/4
+          transform
+          -translate-x-2/4
+          w-11/12
+          flex flex-col
+          gap-8
+          py-20
+          rounded-lg
+          shadow-lg
+          items-center
+          hidden
+        "
+      >
+        <a href="#">Pricing</a>
+        <a href="#">Support</a>
+        <a
+          href="./signup.html"
+          class="bg-indigo-600 text-yellow-50 font-thin py-5 px-6 rounded-md"
+          ><span class="text-white font-bold">Get Started </span>- It's free</a
+        >
       </div>
     </header>
     <main class="container container py-10 mx-auto px-4 md:px-0">
@@ -160,32 +190,32 @@
           <div>
             <h3 class="text-2xl font-bold mb-3">Sitemap</h3>
             <ul class="space-y-2">
-              <li class="text-gray-500">Homepage</li>
-              <li class="text-gray-500">Pricing</li>
+              <li class="text-gray-500 cursor-pointer">Homepage</li>
+              <li class="text-gray-500 cursor-pointer">Pricing</li>
             </ul>
           </div>
           <div>
             <h3 class="text-2xl font-bold mb-3">Resources</h3>
             <ul class="space-y-2">
-              <li class="text-gray-500">Support</li>
-              <li class="text-gray-500">Contact</li>
-              <li class="text-gray-500">FAQ</li>
+              <li class="text-gray-500 cursor-pointer">Support</li>
+              <li class="text-gray-500 cursor-pointer">Contact</li>
+              <li class="text-gray-500 cursor-pointer">FAQ</li>
             </ul>
           </div>
           <div>
             <h3 class="text-2xl font-bold mb-3">Company</h3>
             <ul class="space-y-2">
-              <li class="text-gray-500">About</li>
-              <li class="text-gray-500">Customers</li>
-              <li class="text-gray-500">Blog</li>
+              <li class="text-gray-500 cursor-pointer">About</li>
+              <li class="text-gray-500 cursor-pointer">Customers</li>
+              <li class="text-gray-500 cursor-pointer">Blog</li>
             </ul>
           </div>
           <div>
             <h3 class="text-2xl font-bold mb-3">Resources</h3>
             <ul class="space-y-2">
-              <li class="text-gray-500">HackerNews</li>
-              <li class="text-gray-500">Reddit</li>
-              <li class="text-gray-500">Twitter</li>
+              <li class="text-gray-500 cursor-pointer">HackerNews</li>
+              <li class="text-gray-500 cursor-pointer">Reddit</li>
+              <li class="text-gray-500 cursor-pointer">Twitter</li>
             </ul>
           </div>
         </div>
