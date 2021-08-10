@@ -16,11 +16,15 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./dist/tailwind.css" />
     <title>Indie Brew | Codewell Challenge</title>
   </head>
-  <body class="font-DM text-lg">
-    <header class="bg-hero bg-cover bg-no-repeat mb-20 relative">
+  <body class="font-DM text-lg overflow-x-hidden">
+    <header
+      class="bg-hero bg-cover bg-no-repeat mb-20 relative"
+      data-aos="zoom-in"
+    >
       <div class="container py-10 mx-auto px-4">
         <nav class="flex justify-between items-center mb-10 lg:mb-20">
           <img src="./Assets/Logo.svg" alt="IndieBrew Logo" />
@@ -129,14 +133,14 @@
     <main class="container container py-10 mx-auto px-4 md:px-0">
       <!-- Social Proofs -->
       <section class="md:flex md:items-center md:justify-between mb-20">
-        <div class="flex-1 md:order-2">
+        <div class="flex-1 md:order-2" data-aos="fade-left">
           <img
             src="./Assets/Social Media Icons.png"
             alt="Soical Media Icons"
             class="mb-8 md:w-3/4 lg:w-3/5 md:mb-0 md:ml-auto"
           />
         </div>
-        <div class="flex-1">
+        <div class="flex-1" data-aos="fade-right">
           <h2 class="text-4xl font-bold leading-snug mb-2">
             Curate your feed from dozens of
             <span class="md:block"> resources.</span>
@@ -149,14 +153,14 @@
         </div>
       </section>
       <section class="md:flex md:items-center md:justify-between mb-20">
-        <div class="flex-1 text-center md:text-left">
+        <div class="flex-1 text-center md:text-left" data-aos="zoom-in-up">
           <img
             src="./Assets/Phone Mockup.png"
             alt="Mobile Phone"
             class="mb-8 md:w-3/4 lg:w-3/5 md:mb-0"
           />
         </div>
-        <div class="flex-1">
+        <div class="flex-1" data-aos="zoom-in-up">
           <h2 class="text-4xl font-bold leading-snug mb-2">
             Access your feed from the
             <span class="md:block"> comfort of your phone.</span>
@@ -168,7 +172,7 @@
           <a class="font-bold text-indigo-600">Sign up for the waitlsit →</a>
         </div>
       </section>
-      <footer class="py-16 md:flex md:gap-x-6">
+      <footer class="py-16 md:flex md:gap-x-6" data-aos="fade-up">
         <div class="mb-12 md:flex-1">
           <h3 class="text-2xl font-bold mb-3">IndieBrew</h3>
           <p class="leading-7 text-gray-500 mb-6">
@@ -221,6 +225,7 @@
         </div>
       </footer>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./app/script.js"></script>
   </body>
 </html>

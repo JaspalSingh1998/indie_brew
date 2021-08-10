@@ -17778,11 +17778,11 @@ video {
 }
 
 .bg-hero {
-  background-image: url('/Assets/Background.png');
+  background-image: url('../Assets/Background.png');
 }
 
 .bg-signup {
-  background-image: url('/Assets/signup-background.png');
+  background-image: url('../Assets/signup-background.png');
 }
 
 .from-transparent {
@@ -49357,11 +49357,11 @@ video {
   }
 
   .sm\:bg-hero {
-    background-image: url('/Assets/Background.png');
+    background-image: url('../Assets/Background.png');
   }
 
   .sm\:bg-signup {
-    background-image: url('/Assets/signup-background.png');
+    background-image: url('../Assets/signup-background.png');
   }
 
   .sm\:from-transparent {
@@ -80584,11 +80584,11 @@ video {
   }
 
   .md\:bg-hero {
-    background-image: url('/Assets/Background.png');
+    background-image: url('../Assets/Background.png');
   }
 
   .md\:bg-signup {
-    background-image: url('/Assets/signup-background.png');
+    background-image: url('../Assets/signup-background.png');
   }
 
   .md\:from-transparent {
@@ -111811,11 +111811,11 @@ video {
   }
 
   .lg\:bg-hero {
-    background-image: url('/Assets/Background.png');
+    background-image: url('../Assets/Background.png');
   }
 
   .lg\:bg-signup {
-    background-image: url('/Assets/signup-background.png');
+    background-image: url('../Assets/signup-background.png');
   }
 
   .lg\:from-transparent {
@@ -143038,11 +143038,11 @@ video {
   }
 
   .xl\:bg-hero {
-    background-image: url('/Assets/Background.png');
+    background-image: url('../Assets/Background.png');
   }
 
   .xl\:bg-signup {
-    background-image: url('/Assets/signup-background.png');
+    background-image: url('../Assets/signup-background.png');
   }
 
   .xl\:from-transparent {
@@ -174265,11 +174265,11 @@ video {
   }
 
   .\32xl\:bg-hero {
-    background-image: url('/Assets/Background.png');
+    background-image: url('../Assets/Background.png');
   }
 
   .\32xl\:bg-signup {
-    background-image: url('/Assets/signup-background.png');
+    background-image: url('../Assets/signup-background.png');
   }
 
   .\32xl\:from-transparent {
